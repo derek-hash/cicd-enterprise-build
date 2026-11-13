@@ -1,6 +1,6 @@
 # SYS-350 Module 10: Terraform CI/CD with Dockur VMs
 
-This repository runs my Enterprise Build configuration through a GitHub Actions pipeline. Every push to `cicd-enterprise` is formatted, validated, planned, and policy-checked. After a required approval, the pipeline applies the stack to the lab host and smoke-tests it.
+This repository pushes my Enterprise Build configuration through a GitHub Actions pipeline. Every push to `cicd-enterprise` is formatted, validated, planned, and policy-checked. After a required approval, the pipeline applies the stack to the lab host and smoke-tests it.
 
 ## Stack
 
